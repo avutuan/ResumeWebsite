@@ -52,12 +52,15 @@ section{
     }
 
 .Container h2{
-    margin-top: 2%;
     font-size: 3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    stroke: #181818;
-    stroke-width: 1px;
+    color: brown;
+    -webkit-text-stroke: 1px #181818;
+    text-shadow: 
+        -2px -2px 0 #505050,
+        2px -2px 0 #505050,
+        -2px 2px 0 #505050,
+        2px 2px 0 #505050;
     }
     
 .Container p, ul{
@@ -90,4 +93,9 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    }
+
+.stroked-image {
+    outline: 1px solid hsl(0, 0%, 9%); 
+    outline-offset: 2px;
     }

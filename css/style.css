@@ -19,7 +19,7 @@ header nav ul{
     z-index: 9999;
     margin-top: 0%;
     justify-content: flex-end;
-    border: 2px solid #181818;
+    border: 1px solid #181818;
     }
 
 header nav ul li{
@@ -55,12 +55,7 @@ section{
     font-size: 3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: brown;
-    -webkit-text-stroke: 1px #181818;
-    text-shadow: 
-        -2px -2px 0 #505050,
-        2px -2px 0 #505050,
-        -2px 2px 0 #505050,
-        2px 2px 0 #505050;
+    -webkit-text-stroke: 2px #181818;
     }
     
 .Container p, ul{
